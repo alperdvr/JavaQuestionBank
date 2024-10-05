@@ -30,10 +30,19 @@ public class TypeCasting01 {
       //  4) Double data t!p!nde b!r deg!sken olusturunuz ve onu b!r short deg!sken!ne dönüstürünüz.Sonrasında bu short deg!sken!n deger!n! konsolda yazdırınız.
         //  Not : Çıktıya dikkat ediniz, ondalık bir deger olmayacaktır.
 
-        double fiyat1= 4.5;
+        double fiyat1= 1.2;
+        short yeniFiyat1 = (short) fiyat;
+        System.out.println(yeniFiyat);
 
+        System.out.println("//-------------------------------------");
 
+       //5.) Byte data tipinde bir değişken oluşturunuz ve onu bir double değişkenine dönüştürünüz. Sonrasında bu double değişkenin değerini konsolda yazdırınız. Not: Çıktıya dikkat ediniz, ondalık bir değer olmayacaktır.
 
+        byte age = 29;
+        double newAge = age;
+        System.out.println(newAge);
+
+        System.out.println("//-------------------------------------");
 
 
 
