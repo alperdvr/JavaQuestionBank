@@ -63,7 +63,7 @@ public class Gun01 {
 
         System.out.println(x + " " + y);
 
-        System.out.println("//-------------------------------------");
+        System.out.println("//---------------------------------------");
 
 
         //6.) 3 öge (k!tap, defter ve laptop) f!yatı !ç!n long data t!p!nde deg!skenler olusturunuz. Konsolda 2 k!tap, 4 defter ve 3 laptop !ç!n toplam f!yatını yazdırınız.
