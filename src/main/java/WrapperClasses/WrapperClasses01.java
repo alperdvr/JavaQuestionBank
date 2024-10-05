@@ -22,7 +22,7 @@ public class WrapperClasses01 {
 
       //3.) valueOf(String s) ile parseByte(String s) metodları arasındaki farklar nelerdir?
 
-      /*  valueOf(String s) ve parseByte(String s) yöntemleri arasındaki farklar, her bir metodun işlevi ve geri döndürdüğü değer türüyle ilgilidir. Aşağıda her iki metodun temel farkları açıklanmaktadır:
+    /*    valueOf(String s) ve parseByte(String s) yöntemleri arasındaki farklar, her bir metodun işlevi ve geri döndürdüğü değer türüyle ilgilidir. Aşağıda her iki metodun temel farkları açıklanmaktadır:
 
         1. Geri Döndürdükleri Türler
         valueOf(String s): Bu yöntem, belirli bir String değeri ilgili sayısal türde bir nesneye (wrapper class) dönüştürür. Örneğin, Byte.valueOf(String s) çağrıldığında bir Byte nesnesi döndürür.
@@ -38,6 +38,7 @@ public class WrapperClasses01 {
 
         Örnek Kullanım
         Byte.valueOf(String s):
+
         String str = "100";
         Byte byteValue = Byte.valueOf(str);  // Byte nesnesi döndürür
 
@@ -48,7 +49,8 @@ public class WrapperClasses01 {
         Özet
         valueOf(String s) bir nesne (Byte) döndürür.
                 parseByte(String s) bir ilkel veri türü (byte) döndürür.
-                Nesne yönelimli bir yapı kullanmak istiyorsanız valueOf, daha düşük bellek /*kullanımı ve ilkel türlere ihtiyaç duyuyorsanız parseByte tercih edilmelidir.
+                Nesne yönelimli bir yapı kullanmak istiyorsanız valueOf, daha düşük bellek kullanımı ve ilkel türlere ihtiyaç duyuyorsanız parseByte tercih edilmelidir.
+*/
 
     }
 }
