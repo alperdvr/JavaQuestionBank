@@ -1,6 +1,6 @@
 package TypeCasting;
 
-public class TypeCsting1 {
+public class TypeCasting {
     public static void main(String[] args) {
 
     //1) Short data t!p!nde b!r deg!sken olusturunuz ve onu b!r !nt deg!sken!ne dönüstürünüz.
@@ -30,7 +30,8 @@ public class TypeCsting1 {
       //  4) Double data t!p!nde b!r deg!sken olusturunuz ve onu b!r short deg!sken!ne dönüstürünüz.Sonrasında bu short deg!sken!n deger!n! konsolda yazdırınız.
         //  Not : Çıktıya dikkat ediniz, ondalık bir deger olmayacaktır.
 
-        double fiyat1=
+        double fiyat1= 4.5;
+
 
 
 
