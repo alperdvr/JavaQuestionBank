@@ -90,16 +90,14 @@ public class Gun01 {
         n2 = bos;
         System.out.println("Degistirildikten sonra: " + n1 + " -- " + n2);
 
-
-
-
-
-
 //        //2.yol degisken kullanmadan
 //        n1 = n1 + n2;
 //        n2 = n1 - n2;
 //        n1 = n1 - n2;
 //        System.out.println("Degistirildikten sonra: " + n1 + "-" + n2);
+
+        System.out.println("//-------------------------------------");
+
 
 
     }
